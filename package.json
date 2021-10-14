@@ -1,0 +1,45 @@
+{
+  "name": "FoodOrdering",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "react-devtools": "react-devtools"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "native-base": "^2.11.0",
+    "react": "16.6.1",
+    "react-native": "0.57.5",
+    "react-native-credit-card-input": "^0.4.1",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-maps": "^0.22.1",
+    "react-native-material-dialog": "^0.7.6",
+    "react-native-material-textfield": "^0.12.0",
+    "react-native-modal": "^7.0.2",
+    "react-native-progress-bar-animated": "^1.0.6",
+    "react-native-render-html": "^4.1.1",
+    "react-native-smooth-pincode-input": "^1.0.3",
+    "react-native-textarea": "^1.0.3",
+    "react-native-vector-icons": "^6.2.0",
+    "react-navigation": "^3.2.1",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "rn-round-checkbox": "^0.3.4"
+  },
+  "devDependencies": {
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.1",
+    "redux-devtools-extension": "^2.13.8",
+    "remote-redux-devtools": "^0.5.16"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
